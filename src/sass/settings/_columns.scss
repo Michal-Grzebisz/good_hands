@@ -1,0 +1,42 @@
+.columns {
+    display: flex;
+    // background-image: url('../../assets/3\ Columns\ Background.png');
+    background: var(--color-columns);
+    box-shadow: inset 0px -19px 36px -4px rgba(0,0,0,0.2);
+
+    &__three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 2.875rem;
+        padding-bottom: 5.375rem;
+        margin: 0 10rem 0 10rem;
+
+        h1 {
+            font-size: 5.625rem;
+            font-family: var(--font-base);
+            font-weight: 100;
+            color: var(--color-info);
+        }
+
+        h2 {
+            margin-top: 1.5rem;
+            margin-bottom: 1.875rem;
+            font-size: 1.125rem;
+            font-family: var(--font-base);
+            font-weight: 400;
+            color: var(--color-info);
+        }
+
+        &__content {
+            text-align: justify;
+            span {
+                font-size: 1rem;
+                line-height: 1.8;
+                color: var(--color-text);
+            }
+        }
+    }
+}

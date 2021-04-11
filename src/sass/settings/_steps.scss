@@ -1,0 +1,72 @@
+.steps {
+  
+
+    &__title {
+        padding-top: 3.4375rem;
+        padding-bottom: 5.75rem;
+        font-family: var(--font-base);
+        font-size: 2.375rem;
+        font-weight: 400;
+        text-align: center;
+        color: var(--color-text);
+        position: relative;
+
+        h1 {
+            &:after {
+                content: '';
+                position: absolute;
+                width: 16rem;
+                height: 2rem;
+                background-image: url("../../assets/Decoration.svg");
+                background-repeat: no-repeat;
+                background-size:c contain;
+                background-position: center;
+                top: 70%;
+                left: calc(50% - 8rem)
+
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: var(--color-background);
+        padding: 4.5625rem 23rem 4.5625rem 23rem;
+
+        img {
+            width: 5.1875rem;
+            height: 5.1875rem;
+        }
+
+        &__columns {
+            padding: 0 4rem 0 4rem;
+
+
+            h2 {
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    width: 4.375rem;
+                    height: 1px;
+                    background-color: var(--color-text);
+                    top: 130%;
+                    left: calc(50% - 4.375rem/2)
+                }
+            
+            }
+        }
+    }
+
+    &__button {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+}

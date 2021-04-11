@@ -1,0 +1,113 @@
+.home {
+    height: 100vh;
+
+
+    &__navigation {
+        &__links {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 8.875rem;
+
+            & > a {
+            text-decoration: none;
+            color: var(--color-text);
+            font-size: 1.125rem;
+            padding: 0.625rem 1.250rem 0.625rem 1.250rem;
+            border: solid 0.75px transparent;
+            font-family: var(--font-base);
+            font-weight: 400;
+            
+                &:hover {
+                    border: solid 0.75px var(--color-text);
+                }
+
+            }
+        }
+    }
+
+    &__info {
+        display: flex;
+        height: 100%;
+
+        &__background {
+            height: 100%;
+            width: 50%;
+            background-image: url(../../assets/Home-Hero-Image.jpg);
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position-x: 102%;
+           
+        }
+
+        &__content {
+          height: 100%;
+
+            &__text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                margin-right: 17.1875rem;
+
+                h1 {
+                    font-size: 2.375rem;
+                    color: var(--color-text);
+                    font-family: var(--font-base);
+                    font-weight: 400;
+                
+                }
+            }
+        
+        }
+
+        &__buttons {
+            display: flex;
+            margin-top: 7.6875rem;
+
+            a {
+                padding: 0.8rem 5.8rem 0.8rem 5.8rem;
+                font-size: 2.25rem;
+                text-decoration: none;
+                text-align: center;
+                color: var(--color-text);
+                font-family: var(--font-base);
+                font-weight: 300;
+                margin-right: 3rem;
+
+                &:last-child {
+                    padding: 0.8rem 3.18rem 0.8rem 3.18rem;
+                    margin-left: 3rem;
+                }
+            }
+        
+        }
+    }
+}
+
+.nav__log {
+    padding-top: 2.875rem;
+    padding-right: 9.375rem;
+    display: flex;
+    justify-content: flex-end;
+
+    :first-child {
+        margin-right: 1rem;
+    }
+
+    & > a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    border: 0.75px solid transparent;
+
+    &:hover {
+        border: 0.75px solid var(--color-columns);
+    }
+
+    }
+}
+
