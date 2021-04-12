@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/good_hands/static/css/main.5885f4b0.chunk.css",
-    "main.js": "/good_hands/static/js/main.56dba331.chunk.js",
-    "main.js.map": "/good_hands/static/js/main.56dba331.chunk.js.map",
+    "main.js": "/good_hands/static/js/main.e6ff06c9.chunk.js",
+    "main.js.map": "/good_hands/static/js/main.e6ff06c9.chunk.js.map",
     "runtime-main.js": "/good_hands/static/js/runtime-main.6fcd4e0a.js",
     "runtime-main.js.map": "/good_hands/static/js/runtime-main.6fcd4e0a.js.map",
     "static/css/2.325f41de.chunk.css": "/good_hands/static/css/2.325f41de.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.325f41de.chunk.css",
     "static/js/2.7f01b129.chunk.js",
     "static/css/main.5885f4b0.chunk.css",
-    "static/js/main.56dba331.chunk.js"
+    "static/js/main.e6ff06c9.chunk.js"
   ]
 }
